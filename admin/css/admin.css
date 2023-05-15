@@ -1,0 +1,81 @@
+@import url(../../css/reset/reset.css);
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+}
+
+.box {
+    background-color: #d8d8d8;
+    background: linear-gradient(to bottom, #d8d8d8, #9b9b9b); /* Градиент */
+    width: auto;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    margin: 20px 20px 0;
+}
+
+text {
+    color: #0e81bc;
+    font-size: 20px;
+}
+
+.box_1 {
+    background: #4b4b4d; /* Цвет фона */
+    background: linear-gradient(to bottom, #4b4b4d, #000000); /* Градиент */
+    width: auto;
+    padding: 10px;
+    margin: 0 20px 0 20px;
+    display: flex;
+}
+
+.box_1 .id,
+.box_1 .customer_name,
+.box_1 .order_date,
+.box_1 .client_number,
+.box_1 .product,
+.box_1 .amount {
+    color: white;
+    margin: 0 20px;
+}
+
+
+.box_2 {
+    display: flex;
+    padding: 10px;
+    margin: 0 20px 0 20px;
+    background-color: rgb(136, 136, 136);
+}
+
+.box_1,
+.box_2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+
+.box_2:nth-child(even) {
+    background-color: #fff;
+}
+
+.box_2:nth-child(odd) {
+    background-color: #f9f9f9;
+    background: linear-gradient(to bottom, #f9f9f9, #dcdbdb); /* Градиент */
+}
+
+
+
+.box_2 .id,
+.box_2 .customer_name,
+.box_2 .order_date,
+.box_2 .client_number,
+.box_2 .product,
+.box_2 .amount {
+    color: #333333;
+    margin: 0 20px;
+    align-items: center;
+}
