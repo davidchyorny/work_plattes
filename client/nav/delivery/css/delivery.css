@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@700&display=swap');
+
+
+
+/* section */
+
+
+.section {
+    text-align: center;
+    margin: 50px 0 20px;
+}
+
+.section .text{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.text{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.info_row {
+    padding: 100px 200px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.info-col li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.info-col .bx {
+    color: #a1a1a1;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.info .text-h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
