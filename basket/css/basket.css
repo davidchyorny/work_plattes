@@ -1,0 +1,399 @@
+@import url(../../css/reset/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@700&display=swap');
+
+/* FORM */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.heading {
+    color: black;
+    font-size: 30px;
+}
+
+
+
+.basket_title .title {
+    color: #b32025;
+    font-size: 20px;
+}
+
+.basket_title p {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.title_home {
+    color: #b32025;
+}
+
+.title_card {
+    text-align: left;
+    margin: 25px -4px;
+}
+
+.title_card a {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 39px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+
+/* Мій Кошик */
+
+.trace {
+    margin-top: 63px;
+}
+
+.trace ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 11px;
+}
+
+.trace_home {
+    color: #000000;
+}
+
+.trace_text {
+    color: #72BF44;
+}
+
+.trace li {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/* Корзина */
+
+.shopping-cart {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.product_result {
+    margin-left: auto;
+}
+
+
+
+.thead th {
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    /* background-color: #008000; */
+}
+
+.shopping-cart-img {
+    border-radius: 8px;
+}
+
+/* td,
+th {
+    padding: 1px;
+    border: 1px solid black;
+} */
+
+table {
+    border-spacing: 0 20px;
+}
+
+td {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.price_row {
+    vertical-align: top;
+
+}
+
+.price_row .price_link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #383838;
+}
+
+
+.code_td {
+    height: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #BDBDBD;
+}
+
+.code_td {
+    vertical-align: bottom;
+}
+
+.code_link {
+    margin-left: 25px;
+}
+
+.price_link {
+    display: flex;
+    align-items: flex-start;
+    height: 5px;
+    padding: 0 30px;
+}
+
+
+.delete_row img {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.total_amount {
+    vertical-align: top;
+    padding: 0 30px;
+    border: none;
+}
+
+.total_amount .total_amount_link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #383838;
+}
+
+
+
+.shopping-cart .name_row {
+    font-weight: 400;
+    font-size: 17px;
+    width: 280px;
+    line-height: 18px;
+    color: #383838;
+    padding: 0 100px 0 25px;
+    display: flex;
+    align-items: flex-start;
+    border: none;
+}
+
+.update_cart {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--white);
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.update_cart:hover {
+    background-color: #00800089;
+    color: #FFF;
+}
+
+.update_cart {
+    margin-top: 10px;
+    background-color: #008000;
+    color: #FFF;
+    margin-bottom: 5px;
+}
+
+
+input[type="number"] {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 120px;
+}
+
+input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 109, 0, 0.994);
+    color: #ededed;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.bx-x {
+    font-size: 30px;
+    color: black;
+}
+
+.box_thead td {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+
+/* Підсумок */
+
+.product_result {
+    margin: 0 28px;
+    width: 280px;
+    max-height: 235px;
+    left: 1183px;
+    background: #ECECEC;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.title_text {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cecece;
+    padding: 0 0 14px;
+}
+
+.title_text title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #383838;
+}
+
+.title_text product-quantity {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+}
+
+.interim_results {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.interim_results title_results {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #858585;
+}
+
+.interim_results amount_results {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #434343;
+}
+
+.submission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #cecece;
+}
+
+.submission title_submission {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #858585;
+}
+
+.submission amount_submission {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #434343;
+}
+
+.ordering {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.ordering title_ordering {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #858585;
+}
+
+.ordering amount_ordering {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #434343;
+}
+
+.bth_order {
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.bth_order button {
+    text-transform: uppercase;
+    display: flex;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.partition {
+    height: 20px;
+    width: auto;
+    background-color: #383838;
+}
+
+
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    background-color: #404040;
+    color: #fff;
+}
+
+#scroll-to-top-btn:hover {
+    background-color: #404040;
+}
