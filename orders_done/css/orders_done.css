@@ -1,0 +1,103 @@
+@import url(../../css/reset/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@700&display=swap');
+
+/* FORM */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.box_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 70px 0 50px;
+}
+
+.box_1 img {
+    width: 150px;
+    height: 150px;
+}
+
+.text_done h2 {
+    margin: 20px 0;
+    width: 400px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #383838;
+}
+
+.number_order_done h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #383838;
+}
+
+.manager_info_done h2 {
+    max-width: 885px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #383838;
+}
+
+.order_time_done {
+    display: flex;
+    column-gap: 123px;
+    align-items: center;
+    border-top: 1px solid #000000a1;
+    border-bottom: 1px solid #000000a1;
+    padding: 20px 30px 0;
+}
+
+
+
+
+.box_1_done ul {
+    margin-bottom: 20px;
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+.box_2_done ul {
+    margin-bottom: 20px;
+    display: flex;
+    line-height: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.bth_order {
+    background-color: #000000;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.bth_order .bth_order_color {
+    color: #fff;
+}
